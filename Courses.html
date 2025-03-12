@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  
+  <title>Rasanh - Courses</title>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <header class="sticky-top">
+    <a href="index.html" class="logo_btn">
+      <img src="Full_Logo.jpeg" class="logo_Img" alt="">
+  </a>     <nav class="navi">
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About us</a>
+      <a href="" style="pointer-events: none; cursor: default; color:#9705c7">Explore Courses</a>
+      <a href="#contact">Contact us</a>
+    </nav>
+  </header>
+
+  <!-- Courses Section -->
+  <section class="Card_Section" id="Courses" style="background-color: #f8f9fa;">
+    <h2 class="title" style="color: #3a6cf4;">Explore Our Courses</h2>
+    <div class="courses-container">
+      <!-- Introduction to AI -->
+      <div class="course-card ">
+            <div class="course-content">
+              <div class="course-badge">AI</div>
+                <div class="course-header">
+                    <i class='bx bx-brain course-icon'></i>
+                    <h3>Introduction to AI</h3>
+                </div>
+                <div class="course-meta">
+                    <div class="meta-item">
+                        <i class='bx bx-time'></i>
+                        <div>
+                          <span class="meta-label">Duration</span>
+                          <span class="meta-value">48 Hours (2 Month)</span>
+                        </div>
+                      </div>
+                      <div class="meta-item">
+                        <i class='bx bx-pound'></i>
+                        <div>
+                          <span class="meta-label">Price</span>
+                          <span class="meta-value">4,800 EGP</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="ai-page-course.html" class="btn-enroll">
+                    View Details <i class='bx bx-chevron-right'></i>
+                </a>
+            </div>
+        </div>
+
+      <!-- Data Science -->
+      <div class="course-card">
+        <div class="course-badge">Trending</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-data course-icon'></i>
+            <h3>Data Science</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Month)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="data-science-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Machine Learning -->
+      <div class="course-card">
+        <div class="course-badge">ML</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-brain course-icon'></i>
+            <h3>Machine Learning</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Month)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="machine-learning-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Deep Learning -->
+      <div class="course-card">
+        <div class="course-badge">DL</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-brain course-icon'></i>
+            <h3>Deep Learning</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Month)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="DeepLearning-Course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Computer Vision -->
+      <div class="course-card">
+        <div class="course-badge">Visual</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-camera course-icon'></i>
+            <h3>Computer Vision</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Month)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="computer-vision-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Natural Language Processing (NLP) -->
+      <div class="course-card">
+        <div class="course-badge">NLP</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-chat course-icon'></i>
+            <h3>Natural Language Processing (NLP)</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Month)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="NLP-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Robotics -->
+      <div class="course-card">
+        <div class="course-content">
+          <div class="course-badge">Robotics</div>
+          <div class="course-header">
+            <i class='bx bxs-bot course-icon'></i>
+            <h3>Robotics</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">72 Hours (12 Weeks)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">10,000 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="Robotics-Course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+      
+
+      <!-- Mobile App Development (Flutter) -->
+      <div class="course-card">
+        <div class="course-badge">Flutter</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-mobile-alt course-icon'></i>
+            <h3>Mobile App Development (Flutter)</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="Flutter-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="course-card">
+        <div class="course-badge">Secure</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-shield course-icon'></i>
+            <h3>Cybersecurity</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">8,000 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="cybersecurity-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Network -->
+      <div class="course-card">
+        <div class="course-badge">Network</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-network-chart course-icon'></i>
+            <h3>Network</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">72 Hours (3 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">7,200 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="Network-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Graphic Design -->
+      <div class="course-card">
+        <div class="course-badge">Art</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-paint course-icon'></i>
+            <h3>Graphic Design</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">42 Hours (2 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="Graphic-Design-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Front End (Web Design) -->
+      <div class="course-card">
+        <div class="course-badge">Web</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-code course-icon'></i>
+            <h3>Front End (Web Design)</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">48 Hours (2 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">4,800 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="FrontEnd-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Back End (Web Development) -->
+      <div class="course-card">
+        <div class="course-badge">Web</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-server course-icon'></i>
+            <h3>Back End (Web Development)</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">72 Hours (3 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">7,200 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="BackEnd-page-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+            <!-- .NET -->
+            <div class="course-card">
+              <div class="course-badge">web</div>
+              <div class="course-content">
+                <div class="course-header">
+                  <i class='bx bx-code-alt course-icon'></i>
+                  <h3>Modern C# Development (.NET)</h3>
+                </div>
+                <div class="course-meta">
+                  <div class="meta-item">
+                    <i class='bx bx-time'></i>
+                    <div>
+                      <span class="meta-label">Duration</span>
+                      <span class="meta-value">120 Hours (5 Months)</span>
+                    </div>
+                  </div>
+                  <div class="meta-item">
+                    <i class='bx bx-pound'></i>
+                    <div>
+                      <span class="meta-label">Price</span>
+                      <span class="meta-value">10,000 EGP</span>
+                    </div>
+                  </div>
+                </div>
+                <a href="Net-Course.html" class="btn-enroll">
+                  View Details <i class='bx bx-chevron-right'></i>
+                </a>
+              </div>
+            </div>
+
+      <!-- DevOps -->
+      <div class="course-card">
+        <div class="course-badge">Ops</div>
+        <div class="course-content">
+          <div class="course-header">
+            <i class='bx bx-cog course-icon'></i>
+            <h3>DevOps</h3>
+          </div>
+          <div class="course-meta">
+            <div class="meta-item">
+              <i class='bx bx-time'></i>
+              <div>
+                <span class="meta-label">Duration</span>
+                <span class="meta-value">138 Hours (5.75 Months)</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class='bx bx-pound'></i>
+              <div>
+                <span class="meta-label">Price</span>
+                <span class="meta-value">10,000 EGP</span>
+              </div>
+            </div>
+          </div>
+          <a href="DevOps-course.html" class="btn-enroll">
+            View Details <i class='bx bx-chevron-right'></i>
+          </a>
+        </div>
+      </div>
+
+<!-- Digital Transformation -->
+<div class="course-card">
+  <div class="course-badge">DT</div>
+  <div class="course-content">
+    <div class="course-header">
+      <i class='bx bx-rocket course-icon'></i>
+      <h3>Digital Transformation</h3>
+    </div>
+    <div class="course-meta">
+      <div class="meta-item">
+        <i class='bx bx-time'></i>
+        <div>
+          <span class="meta-label">Duration</span>
+          <span class="meta-value">24 Hours (1 Months)</span>
+        </div>
+      </div>
+      <div class="meta-item">
+        <i class='bx bx-pound'></i>
+        <div>
+          <span class="meta-label">Price</span>
+          <span class="meta-value">2,400 EGP</span>
+        </div>
+      </div>
+    </div>
+    <a href="Digital-Transformation_Course.html" class="btn-enroll">
+      View Details <i class='bx bx-chevron-right'></i>
+    </a>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <footer class="foot" id="contact">
+    <div class="footer-content">
+      <div class="footer-col contact-info">
+        <h4>Contact Us</h4>
+        <div class="contact-item">
+          <i class='bx bx-phone'></i>
+          <span>+201103232405</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-envelope'></i>
+          <a href="mailto:info@rsanh.com">info@rsanh.com</a>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-envelope'></i>
+          <a href="mailto:support@rsanh.com">support@rsanh.com</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <p>Copyrights @ <a href="index.html" class="footer-link">Rasanh</a></p>
+      </div>
+      <div class="footer-col social-links">
+        <h4>Follow Us</h4>
+        <div class="iicons">
+          <a href="https://instagram.com/rsanh.eg" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61568793917687&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particles-config.js"></script>
+  <script src="spotlight.js"></script>
+  
+  
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.course-card');
+      gsap.set(cards, { opacity: 0, y: 50 });
+      cards.forEach((card, index) => {
+        gsap.to(card, {
+          opacity: 1,
+          y: 0,
+          duration: 0.6,
+          delay: index * 0.1,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: card,
+            start: "top 80%",
+            toggleActions: "play none none none",
+            once: true
+          }
+        });
+      });
+      cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          gsap.to(card, { y: -5, duration: 0.3 });
+        });
+        card.addEventListener('mouseleave', () => {
+          gsap.to(card, { y: 0, duration: 0.3 });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
